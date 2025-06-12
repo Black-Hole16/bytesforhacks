@@ -8,3 +8,5 @@ Base de Datos mariaDB
 https://github.com/Luhack635
 https://github.com/Oddy25
 
+Pagina web creada con la intencion de informar al mundo sobre las nuevas tecnologias
+
