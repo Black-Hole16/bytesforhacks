@@ -10,3 +10,5 @@ https://github.com/Oddy25
 
 Pagina web creada con la intencion de informar al mundo sobre las nuevas tecnologias
 
+## Categoria de Ciberseguridad
+En esta categoria se explicara todo sobre seguridad de la información, seguridad informatica, Hacking Etico.
