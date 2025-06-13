@@ -1,0 +1,49 @@
+#Archivo  de estructura
+#Estructura de Archivos.md
+
+# Archivos de entorno y configuración sensible (¡CRÍTICO PARA LA SEGURIDAD!)
+
+
+/config/.env.php
+/config/.env                  # Por si acaso creas uno plano en el futuro
+
+# Archivos subidos por los usuarios (no deben estar en el control de versiones)
+/public/uploads/
+
+# Archivos de sistema operativo Windows (suelen generarse automáticamente)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store                     # Archivos de macOS, si alguien en el equipo usa Mac
+.localized                    # Archivos de macOS
+
+# Logs (registros de errores, etc. - si tu aplicación los genera)
+*.log
+/logs/                        # Si tienes una carpeta específica para logs
+
+# Archivos de bases de datos locales (si usas SQLite u otra DB basada en archivos)
+*.sqlite
+*.db
+
+# Archivos temporales o de compilación (si los hubiera)
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Entornos de desarrollo locales (ej. carpetas de servidores locales si no están en public/)
+# /server/                     # Ejemplo: si tienes una carpeta para un servidor de desarrollo
+# /vendor/                     # Si en el futuro agregas Composer
+
+# Archivos de IDEs (Entornos de Desarrollo Integrado)
+.vscode/                      # Visual Studio Code
+.idea/                        # IntelliJ IDEA / PhpStorm
+*.sublime-project             # Sublime Text
+*.sublime-workspace
+.project                      # Eclipse
+.buildpath                    # Eclipse
+.settings/                    # Eclipse
+nbproject/                    # NetBeans
+
+# Documentación específica que no debe ser versionada (si existiera)
+# /docs/temp/
